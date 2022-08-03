@@ -1,0 +1,62 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 62.5%;
+}
+html{
+    font-size: 1.6rem;
+}
+section{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-content: center;
+}
+.container{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 10px;
+    height: auto;
+}
+
+.listaOrder{
+    width: 90%;
+    min-height: 30px;
+    padding: 0;
+    margin: 16px auto;
+    max-height: fit-content;
+ /*    background-color: azure; */
+    border-radius: 10px;
+}
+.listita{
+    margin: 10px 25px;
+    height: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.btnButton{
+    width: fit-content;
+    height: 50px;
+    background-color: rgb(107, 209, 107);
+    border: 1px solid rgb(209, 203, 203);
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.pParrafo{
+    width: fit-content;
+}
+.imgImagen{
+    width: 400px;
+    border-radius: 20px;
+}
+.input-container{
+    margin-top: 1rem;
+    width: 400px;
+}
+.text{
+    height: 20px;
+}
